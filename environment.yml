@@ -1,0 +1,6 @@
+name: use-hello-world
+dependencies:
+- python=3.6.*
+- pip:
+  - --process-dependency-links
+  - git+https://github.com/ceddlyburge/python_hello_world#egg=python_hello_world
